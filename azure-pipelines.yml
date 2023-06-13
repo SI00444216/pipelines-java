@@ -28,7 +28,7 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo'
-    summaryFileLocation: '$(Pipeline.Workspace)'
+    summaryFileLocation: $(Build.SourcesDirectory)
     
 
 
