@@ -17,17 +17,6 @@
     </dependency>
   </dependencies>
 
-<repository>
-  <id>SI00444216</id>
-  <url>https://pkgs.dev.azure.com/SI00444216/_packaging/SI00444216/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-	
   <build>
     <finalName>helloworld</finalName>
     <plugins>
